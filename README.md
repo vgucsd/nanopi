@@ -49,13 +49,13 @@ In this guide, NanoPi Neo runs Ubuntu 16.04.1 xenial.
 
 ## Initializing NanoPi Neo After Installing Ubuntu-core
 
-***NOTE:*** Skip to "Initializing NanoPi Neo After Setting Up Connections and Static IP" if NanoPiNeo is set up to establish connections on its own.
+***NOTE:*** Skip to [Initializing NanoPi Neo After Setting Up Connections and Static IP](#initializing-nanopi-neo-after-setting-up-connections-and-static-ip) if NanoPiNeo is set up to establish connections on its own.
 
 1. Insert mini-SD card into NanoPi Neo.
 ***NOTE:*** mini-SD card must be in NanoPi Neo before power is applied.
 1. Plug in antenna dongle into desktop, connect to dronenet
 1. Connect NanoPi to router via Ethernet
-1. Plug in grey dongle into NAnoPi Neo
+1. Plug in grey dongle into NanoPi Neo
 1. Connect laptop to router. Connect to dronenet via Ethernet and UCSD-PROTECTED via WiFi. This will enable you to connect the NanoPi Neo to the internet and download ROS.
 ***NOTE:*** Internet access on NanoPi Neo lasts until laptop goes to sleep.
 1. Plug in NanoPi Neo USB cable for power.
@@ -243,7 +243,7 @@ $ ifconfig
 
 ## Initializing NanoPi Neo After Setting Up Connections and Static IP
 
-***NOTE:*** Return to "Initializing NanoPi Neo After Installing Ubuntu-core" if NanoPiNeo is not set up to establish connections on its own.
+***NOTE:*** Return to [Initializing NanoPi Neo After Installing Ubuntu-core](#initializing-nanopi-neo-after-installing-ubuntu-core) if NanoPiNeo is not set up to establish connections on its own.
 
 1. Insert mini-SD card into NanoPi Neo.
 ***NOTE:*** mini-SD card must be in NanoPi Neo before power is applied.
