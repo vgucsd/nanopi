@@ -4,34 +4,24 @@ Victor Gandarillas <vgandari@eng.ucsd.edu>
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
- - [NanoPi Setup Guide](#nanopi-setup-guide)
-
-  - [Installing UbuntuCore](#installing-ubuntucore)
-  - [Initializing NanoPi Neo After Installing Ubuntu-core](#initializing-nanopi-neo-after-installing-ubuntu-core)
-  - [Connect to dronenet Manually](#connect-to-dronenet-manually)
-  - [Configure Connections](#configure-connections)
-  - [Configure Static IP](#configure-static-ip)
-
-    - [Configure network interface](#configure-network-interface)
-    - [Configure DNS servers](#configure-dns-servers)
-    - [Add DNS servers to network interfaces file](#add-dns-servers-to-network-interfaces-file)
-    - [Restart network card](#restart-network-card)
-
-  - [Initializing NanoPi Neo After Setting Up Connections and Static IP](#initializing-nanopi-neo-after-setting-up-connections-and-static-ip)
-  - [Installing Git](#installing-git)
-  - [Set Up Mirrors List](#set-up-mirrors-list)
-  - [Installing ROS](#installing-ros)
-
-    - [Set up your keys](#set-up-your-keys)
-    - [Install Base packages](#install-base-packages)
-    - [Initialize rosdep](#initialize-rosdep)
-    - [Environment setup](#environment-setup)
-
-  - [Getting rosinstall](#getting-rosinstall)
-  - [Finishing Up](#finishing-up)
-  - [Common Issues](#common-issues)
-  - [Troubleshooting](#troubleshooting)
-  - [References](#references)
+- [NanoPi Setup Guide](#nanopi-setup-guide)
+	- [Install UbuntuCore](#install-ubuntucore)
+	- [Initializing NanoPi Neo After Installing Ubuntu-core](#initializing-nanopi-neo-after-installing-ubuntu-core)
+	- [Test Internet Connection](#test-internet-connection)
+	- [Set Up Mirrors List](#set-up-mirrors-list)
+	- [Install Git](#install-git)
+	- [Install ROS](#install-ros)
+		- [Set up Keys](#set-up-keys)
+		- [Install Base Packages](#install-base-packages)
+	- [Configure WiFi Connection](#configure-wifi-connection)
+	- [Configure Static IP](#configure-static-ip)
+		- [Configure network interface](#configure-network-interface)
+		- [Configure DNS servers](#configure-dns-servers)
+		- [Add DNS servers to network interfaces file](#add-dns-servers-to-network-interfaces-file)
+		- [Restart network card](#restart-network-card)
+	- [Common Issues](#common-issues)
+	- [Troubleshooting](#troubleshooting)
+	- [References](#references)
 
 <!-- /TOC -->
 
@@ -40,7 +30,7 @@ Victor Gandarillas <vgandari@eng.ucsd.edu>
 Date       | Modification
 ---------- | ------------------------------------------------------------------------------------------------------------------
 2017.02.14 | Initial Release
-2017.02.22 | Moved Git, ROS installation to front; rely on Ethernet connection for installation prior to configuring WiFi
+2017.02.22 | Moved Git, ROS installation to front; rely on Ethernet connection for installation prior to configuring WiFi; removed instructions for connecting manually to drnenet
 
 This guide is based on the official NanoPi Neo Wiki.
 
